@@ -40,7 +40,7 @@ public abstract class LogLineProcessor {
     }
 
     public void printReport() {
-        System.out.println(generateReport());
+        System.out.println("On " + currentHour + " - "  + generateReport());
     }
 
     protected abstract String generateReport();
